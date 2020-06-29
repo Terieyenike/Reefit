@@ -24,8 +24,8 @@ Favicon generator [realfavicongenerator](https://realfavicongenerator.net/)
 
 # Deployment
 
-Github pages
+Netlify
 
-Project [view]()
+Project [view](https://reefit.netlify.app/)
 
 + Clone the repo and contribute if you find this useful and definitely give it a star.
