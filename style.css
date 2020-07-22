@@ -160,7 +160,6 @@ section {
   padding: 0.625em 1.25em;
   background: var(--background);
   box-shadow: var(--box-shadow);
-  text-align: center;
 }
 
 .col p {
@@ -307,6 +306,7 @@ main {
 
   .section-three p {
     font-size: 1.5rem;
+    text-align: left;
   }
 
   .section-four img {
@@ -317,7 +317,6 @@ main {
   .section-four .btn {
     align-self: center;
   }
-
 
   footer {
     text-align: left;
