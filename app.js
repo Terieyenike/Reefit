@@ -10,6 +10,11 @@ function toggleMenu() {
   }
 }
 
+let menuLinks = document.querySelectorAll('.nav__link');
+menuLinks.forEach((menuLink) => {
+  menuLink.addEventListener('click', toggleMenu);
+});
+
 // Light/Dark Mode
 const toggleSwitch = document.querySelector('input[type=checkbox]');
 const toggleIcon = document.getElementById('toggle-icon');
@@ -47,6 +52,7 @@ const switchTheme = (e) => {
     toggleDarkLightMode(true);
   } else {
     document.documentElement.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
     toggleDarkLightMode(false);
   }
 };
