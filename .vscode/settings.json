@@ -1,3 +1,4 @@
 {
-  "editor.fontFamily": "'Operator Mono Lig', Monaco, monospace, 'Courier New'"
+  "editor.fontFamily": "'Operator Mono Lig', Monaco, monospace, 'Courier New'",
+  "liveServer.settings.port": 5501
 }
